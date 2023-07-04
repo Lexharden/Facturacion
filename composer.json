@@ -1,0 +1,27 @@
+{
+  "name": "nwidart/facturacion",
+  "description": "",
+  "authors": [
+    {
+      "name": "Nicolas Widart",
+      "email": "n.widart@gmail.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Modules\\Facturacion\\Providers\\FacturacionServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\Facturacion\\": ""
+    }
+  },
+  "require": {
+    "facturapi/facturapi-php": "^2.4"
+  }
+}
